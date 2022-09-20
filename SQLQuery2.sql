@@ -30,3 +30,6 @@ select * from AddressBook;
 --UC5 delete existing contact using name--
 delete AddressBook where FirstName='Ashish';
 select * from AddressBook;
+
+--UC6 retrieve person belonging to city or state--
+select * from AddressBook where City = 'Satara' or State = 'MH'; 
