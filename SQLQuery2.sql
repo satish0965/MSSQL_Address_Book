@@ -13,3 +13,11 @@ PhoneNumber bigint,
 Email varchar(100)
 );
 select * from AddressBook;
+
+--UC3 insert contact details into table--
+insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email)
+values('Satish','Patil','Vasai','Palghar','MH',401208,8698949158,'satish@gmail.com'),
+('Amit','Gaikwad','Kokrale','Satara','MH',420203,9638527410,'amit@gmail.com'),
+('Pritish','Patil','Virar','Palghar','MH',401303,7418529630,'pritish@gmail.com'),
+('Ashish','Dhure','Virar','Palghar','MH',401303,8527419630,'ashish@gmail.com');
+select * from AddressBook;
