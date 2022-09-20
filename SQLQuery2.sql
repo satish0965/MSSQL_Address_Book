@@ -21,3 +21,8 @@ values('Satish','Patil','Vasai','Palghar','MH',401208,8698949158,'satish@gmail.c
 ('Pritish','Patil','Virar','Palghar','MH',401303,7418529630,'pritish@gmail.com'),
 ('Ashish','Dhure','Virar','Palghar','MH',401303,8527419630,'ashish@gmail.com');
 select * from AddressBook;
+
+
+--UC4 edit contact by person's name--
+update AddressBook set PhoneNumber=7539514862 where FirstName='Pritish';
+select * from AddressBook;
